@@ -41,7 +41,7 @@ Generated: 2026-06-27. Both repos cloned **without** `--recursive` (no submodule
 | **BUNDLE-B.md** | `aztec-packages: l1-contracts/src/core/` | 49 | 8,914 | _(on request)_ | ⏳ Deferred |
 | **BUNDLE-C.md** | `aztec-packages: l1-contracts/src/governance/` | 22 | 3,567 | _(on request)_ | ⏳ Deferred |
 | **BUNDLE-D.md** | `l1-contracts/src/periphery/` (3) + `l1-contracts/src/shared/` (5) + `barretenberg/sol/src/honk/` (18) | 26 | 4,218 | _(on request)_ | ⏳ Deferred |
-| **BUNDLE-AUDITS.md** | `AztecProtocol/audit-reports` — dedup finding list | — | — | _(on request)_ | ⏳ Deferred (not yet cloned) |
+| **BUNDLE-AUDITS.md** | `AztecProtocol/audit-reports` @ `b3b60ce` — dedup finding list (ATP/staker/milestone/revocation/vesting) | 22 PDFs scanned; 4 reports on-topic (40 findings) | — | **164** | ✅ Delivered |
 
 Totals across in-scope production source: **150 files**, **22,651 source lines** (A+B+C+D). Generator: `scratchpad/gen_bundle.py` (deterministic; self-verifies NAV against real `grep -n`).
 
